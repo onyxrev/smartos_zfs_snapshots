@@ -1,5 +1,5 @@
-SmartOS ZFS Zones Snapshots for Cron
-=====================
+Crontastic SmartOS ZFS Zones Snapshots
+--------------------------------------
 
 This is a set of scripts I use to take periodic ZFS snapshots on SmartOS.
 

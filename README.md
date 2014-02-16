@@ -23,4 +23,4 @@ Add them to cron in the usual ways.  Here's mine:
 30      7       1       *       *       /opt/local/bin/zfs_snapshot_monthly.sh > /var/log/zfs_snapshots.log
 ```
 
-You'll have to develop your own strategy for getting crontab to persist across boots.  Maybe this SMF 'postboot' framework? https://github.com/skylime/smartos-config/
+Because we've decided to use a wacky read-only OS, you'll have to develop your own strategy for getting crontab to persist across boots.  Maybe this SMF 'postboot' framework? https://github.com/skylime/smartos-config/
